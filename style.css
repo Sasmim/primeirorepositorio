@@ -1,0 +1,60 @@
+h1 {color:rgb(255, 252, 207);}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+h2{ font-size: 25px;}
+h2{
+    color:#310202;
+}
+h3 {
+    color: rgb(109, 32, 37);
+}
+body{
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1:hover {
+    color:rgb(99, 99, 163);
+}
+#div1 { 
+    background-color : #2b070791;          
+    color : white;  
+    padding : 15px; 
+    border-radius: 25px 25px 0 0; 
+    background: linear-gradient( #80525249);
+    box-shadow: 6px 0 6px #00000094;
+    transition: 2.5s
+}
+#div2 { 
+    background-color : rgba(255, 255, 255, 0.58);          
+    color : rgb(0, 0, 0);  
+    padding : 15px;  
+    border-radius: 0 0 25px 25px; 
+    background: linear-gradient( #f8d7d749);
+    box-shadow: 6px 0 6px 0 #00000094;
+    transition: 2.5s;
+}
+.myContainer {
+    background-color: #5f445c4d;
+    margin: 1em 2em;
+    border: 5px solid rgb(88, 68, 85);
+    padding: 5px;
+}
+@media screen and (min-width : 800px) {
+    .myContainer{
+        background-color: #6435353f;
+        border: 8px dotted rgb(109, 74, 116);
+        padding : 10px;
+    }
+    
+    h1:hover{
+        color : rgb(127, 114, 158);
+    }
+
+    h2,h3 { 
+        text-align: left;
+    }
+}
